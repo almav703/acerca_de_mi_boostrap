@@ -1,0 +1,34 @@
+* {
+        background-color: #d12581; /* Color de fondo general */
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    h1 {
+        background-color: #2ADE2C;
+        font-family: "Playfair Display", serif;
+        font-family: "Dancing Script", cursive;
+    }
+    h2 {
+        background-color: #71d772;
+    }
+
+    .carousel-inner {
+        max-height: 50rem; /* Altura máxima para las imágenes del carrusel */
+    }
+
+
+    .carousel-item img {
+        width: 100%; /* Ancho automático para que ocupe todo el carrusel */
+        height: 100%; /* Mantiene la proporción de la imagen */
+        object-fit: cover; /* Ajusta la imagen para que no se distorsione */
+    }
+
+    
+    .carousel{
+        color: #d12581;
+    }
+  
+
+    
+    

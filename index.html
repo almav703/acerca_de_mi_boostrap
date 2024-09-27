@@ -1,58 +1,141 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Acerca de mi</title>
-        <style> /*Css interno*/
-           body{
-            background-color: #DE2A75;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-           } 
-           h1{
-            background-color: #2ADE2C;
-            font-family: 'Times New Roman', Times, serif;
-           }
-           h2{
-            background-color: #71d772;
-           }
-        </style>
-    </head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de mi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <h1>Alma Valeria Martinez Tamariz</h1>
-        <img src="imagenes/mi_foto.jpg" alt="">
+<body>
 
-        <p> 
-            Mi biografía: Soy Alma Valeria y tengo 19 años. Vivo en el Estado de México. Desde pequeña, me encantaba visitar a mis tíos en Aculco.          Recuerdo  con cariño los días festivos allí con mi hermano, cuando tomábamos chocolate caliente y nos daban dulces, y el ambiente cálido que se sentía en su casa. El lugar es hermoso, con una gran laguna, mucho terreno y aire fresco.
-            Me gusta mucho comer dulces y chocolates, y siempre disfruto conociendo cosas nuevas. Estoy muy orgullosa de haberme adentrado en el mundo de la programación y de mantener mis metas como objetivos.
-            Sueño con ser psicóloga para poder entenderme a mí misma, comprender a otras personas y ayudarles a vivir una vida plena. Cuando era pequeña, quería ser maestra, pero ahora siento que hay un mundo lleno de posibilidades.
-        </p>
-        
-        <h2>Hobbies</h2>
-        <ul> <!--Lista desordenada-->
-            <li>Me gusta dibujar</li>
-            <li>Me gusta escuchar música</li>
-            <li>Me gusta aprender programación</li>
-            <li>Me gusta admirar la naturaleza</li>
-            <li>Me gusta ver MasterChef</li>
-            <li>Me gusta ver peliculas de romance</li>
-            <li>Me gusta tratar de aprender una canción en la guitarra</li>
-            <li>Me gusta jugar con Nala</li>
-            <li>Me gusta escrbir de vez en cuando en mis notas</li>    
-        </ul>
+    <header>
+        <h1>Alma Valeria Martinez Tamariz</h1> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#1">Acerca de mi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#2">Hoobies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#3">Top canciones favoritas</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+   
+    <main>
+      <!--página reponsiva mediante bootstrap-->
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">        
+          </div>
+          <div class="col-sm-6 col-lg-4">
+          </div>
+          <div class="col-12 col-nd-4">  
+          </div>
+        </div>
+      </section>
     
-        <section>
-            <h2>Top 5 canciones favoritas</h2>
-            <ol> <!--Lista ordenada-->
-                <li>El chico del departamento 512-Selena<a href="https://youtu.be/5ZQ3lMpwsu8?si=IKvtIYL4NvtrI3le">link</a></li>
-                <li>Dibujame-Nanpa Básico <a href="https://youtu.be/vOlJwVtqlog?si=UBQfdSUPnAG4Bo50">link</a></li>
-                <li>Llamado de emergencia-Daddy Yankee <a href="https://youtu.be/ekFaaEU8Yuw?si=uJluxJlX1MroSu-n">link</a></li>
-                <li>Don´t worry, be happy-Bobby McFerrin <a href="https://youtu.be/d-diB65scQU?si=_yhVa4dO8FIEJvFt">link</a></li>
-                <li>Lost Frequencies-Reality <a href="https://youtu.be/ilw-qmqZ5zY?si=M9hiOl1f0siVFt0I">link</a></li>
-         </ol>
-        </section>
-    </body>
+      <section class="container">
+        <!-- Fila para el carrusel -->
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Aquí el carrusel -->
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="imagenes/mi_foto.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="imagenes/foto2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="imagenes/foto_barrio_chino.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <!-- Sección acerca de mi -->
+      <section>
+        <h2 id="1">"Acerca de mi"</h2>
+        <p> 
+          Mi biografía: Soy Alma Valeria y tengo 19 años. Vivo en el Estado de México. Desde pequeña, me encantaba visitar a mis tíos en Aculco. Recuerdo con cariño los días festivos allí con mi hermano, cuando tomábamos chocolate caliente y nos daban dulces, y el ambiente cálido que se sentía en su casa. El lugar es hermoso, con una gran laguna, mucho terreno y aire fresco.
+          Me gusta mucho comer dulces y chocolates, y siempre disfruto conociendo cosas nuevas. Estoy muy orgullosa de haberme adentrado en el mundo de la programación y de mantener mis metas como objetivos.
+          Sueño con ser psicóloga para poder entenderme a mí misma, comprender a otras personas y ayudarles a vivir una vida plena. Cuando era pequeña, quería ser maestra, pero ahora siento que hay un mundo lleno de posibilidades.
+        </p>
+      </section>
 
+      <!-- Sección Hobbies -->
+      <section>
+        <h2 id="2">Hobbies</h2>
+        <ul class="list-group">  
+          <li class="list-group-item">Me gusta dibujar</li>
+          <li class="list-group-item">Me gusta escuchar música</li>
+          <li class="list-group-item">Me gusta aprender programación</li>
+          <li class="list-group-item">Me gusta admirar la naturaleza</li>
+          <li class="list-group-item">Me gusta ver MasterChef</li>
+          <li class="list-group-item">Me gusta ver películas de romance</li>
+          <li class="list-group-item">Me gusta tratar de aprender una canción en la guitarra</li>
+          <li class="list-group-item">Me gusta jugar con Nala</li>
+          <li class="list-group-item">Me gusta escribir de vez en cuando en mis notas</li>
+        </ul>
+      </section>
 
+      <!-- Sección Top canciones -->
+      <section>
+        <h2 id="3">Top 5 canciones favoritas</h2>
+        <ol class="list-group">  
+          <li class="list-group-item">El chico del departamento 512-Selena<a href="https://youtu.be/5ZQ3lMpwsu8?si=IKvtIYL4NvtrI3le">link</a></li>
+          <li class="list-group-item">Dibújame-Nanpa Básico <a href="https://youtu.be/vOlJwVtqlog?si=UBQfdSUPnAG4Bo50">link</a></li>
+          <li class="list-group-item">Llamado de emergencia-Daddy Yankee <a href="https://youtu.be/ekFaaEU8Yuw?si=uJluxJlX1MroSu-n">link</a></li>
+          <li class="list-group-item">Don't worry, be happy-Bobby McFerrin <a href="https://youtu.be/d-diB65scQU?si=_yhVa4dO8FIEJvFt">link</a></li>
+          <li class="list-group-item">Lost Frequencies-Reality <a href="https://youtu.be/ilw-qmqZ5zY?si=M9hiOl1f0siVFt0I">link</a></li>
+        </ol>
+      </section>
+    </main>
+
+  </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
